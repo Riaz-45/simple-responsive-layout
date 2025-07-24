@@ -1,0 +1,26 @@
+
+.inter-h2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(12, 231, 220);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.food{
+    border: 2px solid skyblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.food img{
+    width: 100%;
+}
